@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+            color: #333;
+            size: 100% auto;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #268e00;
+            width: 100%;
+            height: 10vh;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ddd;
+        }
+
+        main {
+            display: flex;
+            width: 80%;
+            margin: auto;
+            background-color: antiquewhite;
+            flex-direction: column;
+        }
+
+        h2 {
+            padding-left: 20px;
+        }
+
+        #article-wrapper-latest {
+            display: flex;
+            flex-direction: row;
+            height: 400px;
+            padding: 10px;
+            flex-wrap: nowrap;
+            gap: 10px;
+        }
+
+        article {
+            flex-direction: column;
+            background-color: beige;
+            border-radius: 15px;
+            flex-wrap: wrap;
+            width: auto;
+        }
+
+        #article-wrapper-relevant {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            flex-wrap: nowrap;
+            gap: 10px;
+        }
+
+        article p,
+        article h3{
+            padding: 0 15px;
+        }
+
+        article img {
+            height: 150px;
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>TOP NEWS</h1>   
+    </header>
+
+
+    <main>
+        <h2>Ultime Notizie</h2>
+        <div id="article-wrapper-latest">
+            <article>
+                <img src="\media\bimbo-perso.webp" alt="bimbo perso">
+                <h3>Ritrovato Bambino Perso L'altroieri</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, expedita! Eum quidem asperiores libero odit obcaecati corrupti similique dolores debitis animi temporibus reprehenderit tempore laborum sapiente deserunt, rerum commodi officiis.</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Il Virus Lorem Ipsum Contagia Il Parco</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex, vero porro officiis impedit quis amet at ipsum nesciunt magnam, aperiam numquam deleniti nam. Corrupti quisquam omnis tenetur molestias neque?</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Nuova Attrazione</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi minima reiciendis, molestias ab quasi corporis, est rerum quaerat quas itaque sed aspernatur placeat quae consectetur! Reprehenderit, earum impedit? Velit, in?</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Parco Ottiene I Fondi Europei</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, tempore? Tenetur in culpa corrupti fugiat nobis consectetur dolorem ipsa magni magnam. Sapiente vitae asperiores natus vel labore cumque veniam adipisci!</p>
+            </article>
+        </div>
+
+        <h2>Notizie Rilevanti</h2>
+        <div id="article-wrapper-relevant">
+            <article>
+                <img src="" alt="">
+                <h3>Ritrovato Bambino Perso L'altroieri</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, expedita! Eum quidem asperiores libero odit obcaecati corrupti similique dolores debitis animi temporibus reprehenderit tempore laborum sapiente deserunt, rerum commodi officiis.</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Il Virus Lorem Ipsum Contagia Il Parco</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex, vero porro officiis impedit quis amet at ipsum nesciunt magnam, aperiam numquam deleniti nam. Corrupti quisquam omnis tenetur molestias neque?</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Nuova Attrazione</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi minima reiciendis, molestias ab quasi corporis, est rerum quaerat quas itaque sed aspernatur placeat quae consectetur! Reprehenderit, earum impedit? Velit, in?</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>Parco Ottiene I Fondi Europei</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, tempore? Tenetur in culpa corrupti fugiat nobis consectetur dolorem ipsa magni magnam. Sapiente vitae asperiores natus vel labore cumque veniam adipisci!</p>
+            </article>
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
