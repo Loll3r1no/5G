@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=100%, initial-scale=1.0">
     <title>Ristoranti</title>
-    <style>
-        figure
-        {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    </style>
+    Scopri i nostri cazzo di ristoranti
+    <link ref="stylesheet" href="/style.css" />
 </head>
+
 <body>
-    <div class="Ristoranti" Ristoranti>
-        Scopri i Nostri Ristoranti<br>
-        <br>
-        <figure width="50%">
-            <img alt="immagine indiano" src="Ristorante-Indiano-Roma-Wasim1.jpg">
+    <div class="Ristoranti">
+        <figure class="immagini">
+            <img src="Ristorante-Indiano-Roma-Wasim1.jpg">
             <figcaption>Ristorante indiano</figcaption>
         </figure>
-        <br>
-        <figure width="50%">
-            <img alt="immagine bella figa" src="beautiful-woman.jpg">
+        <figure class="immagini">
+            <img src="beautiful-woman.jpg">
             <figcaption>Ristorante a tema</figcaption>
         </figure>
-        <br>
-        <figure>
-            <img alt="immagine kebab" src="le-chalet-a-kebab.jpg" width="50%">
+        <figure class="immagini">
+            <img src="le-chalet-a-kebab.jpg">
             <figcaption>Kebab</figcaption>
         </figure>
-        <br>
-        <figure>
-            <img alt="immagine ristorante italiano" src="la-rina-new-york.webp" width="50%">
+        <figure class="immagini">
+            <img src="la-rina-new-york.webp">
             <figcaption>Ristorante italiano</figcaption>
         </figure>
-        <br>
-        <figure>
-            <img alt="immagine ristorante cinese" src="XxjwsmE007016_20200331_CBMFN0A001-Copy-1.jpg" width="50%">
+        <figure class="immagini">
+            <img src="XxjwsmE007016_20200331_CBMFN0A001-Copy-1.jpg">
             <figcaption>Ristorante cinese</figcaption>
         </figure>
-        <br>
-        <figure>
-            <img alt="immagine ristorante giapponese" src="hachi-ristorante-giapponese.jpg" width="50%">
+        <figure class="immagini">
+            <img src="hachi-ristorante-giapponese.jpg">
             <figcaption>Ristorante giapponese</figcaption>
         </figure>
-
     </div>
-    
+
+    <style>
+
+.Ristoranti
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.immagini
+{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 0;
+    background-color: blue;
+    color: aliceblue;
+}
+
+figcaption
+{
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: 500px;
+}
+    </style>
 </body>
+
 </html>
